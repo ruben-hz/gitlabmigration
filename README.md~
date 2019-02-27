@@ -1,4 +1,4 @@
-Deployment of a mongodb replicaset
+Deployment of a mongodb replicaset with authN / authZ
 -----------------------------------------------------
 
 This playbook setup a MongoDB replicaset with
@@ -39,7 +39,8 @@ This first task initiates the server creating a user named mongors
 
 * root access is provided => **root** user needs to be used
 
- 
+  ```ansible-playbook -i inventory/ENVIRONMENT.ini  init.yml```
+
 
 
 Replicaset setup
